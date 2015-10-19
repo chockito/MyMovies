@@ -7,4 +7,10 @@ package movies.chock.de;
  */
 public class CsvFileWriter {
 
+	/*
+	 * 
+	 */
+	public static void main (String[] args) {
+		// very boring change here
+	}
 }
