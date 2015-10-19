@@ -26,12 +26,14 @@ public class CsvFileReader {
 	/**
 	 * @param fileName
 	 */
-	public static void readCsvFile(String fileName) {
+	public static List<Movie> readCsvFile(String fileName) {
 		BufferedReader fileReader = null;
 		
+		//Create a new list of movies 
+		List<Movie> movies = new ArrayList<Movie>();
+		
 		try {
-			//Create a new list of movies 
-			List<Movie> movies = new ArrayList<Movie>();
+
 			
 			String line = "";
 			//Create the file reader
@@ -74,5 +76,6 @@ public class CsvFileReader {
 				e.printStackTrace();
 			}
 		}
+		return movies;
 	}
 }
