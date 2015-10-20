@@ -1,4 +1,6 @@
 
+import java.util.Random;
+
 public class ImportExample {
 
 		public static void main(String[] args) {
